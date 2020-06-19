@@ -41,6 +41,17 @@ const App = () => (
         <p>Complete la function "canBeGroup" en js/js-1.js</p>
         <Test />
       </li>
+      <li>
+        <p>Determine que valor imprime `a` y explique el porque</p>
+        <pre style={{ fontSize: "1.2rem" }}>
+          {`          
+        const a = { prop: 1 };
+        const b = a;
+        b.prop = 2;
+        console.log(a);
+        `}
+        </pre>
+      </li>
     </ol>
     <h3>React</h3>
     <ol>
