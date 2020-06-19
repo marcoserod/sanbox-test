@@ -38,19 +38,15 @@ const App = () => (
           En caso que se pueda distribuir sin faltantes o sobrantes retornar 1
           en caso contrario retornar -1
         </p>
-        <p>Complete la function "canBeGroup" en js/js-1.js</p>
+        <p>
+          Complete la function "canBeGroup" en <strong>js/js-1.js</strong>
+        </p>
         <Test />
+        <p />
       </li>
       <li>
+        <strong>js/js-2.js:</strong>
         <p>Determine que valor imprime `a` y explique el porque</p>
-        <pre style={{ fontSize: "1.2rem" }}>
-          {`          
-        const a = { prop: 1 };
-        const b = a;
-        b.prop = 2;
-        console.log(a);
-        `}
-        </pre>
       </li>
     </ol>
     <h3>React</h3>
