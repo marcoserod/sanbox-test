@@ -28,7 +28,7 @@ const App = () => (
       <li>
         <p>
           Se recibe una cantidad de elementos. Se tiene cajas que pueden
-          contener 3 0 5 elementos en cada una.
+          contener 3 ó 5 elementos en cada una.
         </p>
         <p>
           Se tiene que determinar si la cantidad de elementos puede ser
