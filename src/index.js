@@ -2,6 +2,7 @@ import "./styles.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import { Test } from "./js/js-1";
+import { TestBinaryGap } from "./js/js-3";
 import Nav from "./react/react-1";
 
 const App = () => (
@@ -47,6 +48,13 @@ const App = () => (
       <li>
         <strong>js/js-2.js:</strong>
         <p>Determine que valor imprime `a` y explique el porque</p>
+      </li>
+      <li>
+        <p>
+          Complete la function "binaryGap" en <strong>js/js-3.js</strong>
+        </p>
+        <TestBinaryGap />
+        <p />
       </li>
     </ol>
     <h3>React</h3>
