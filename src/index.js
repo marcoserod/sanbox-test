@@ -90,7 +90,7 @@ const App = () => (
         </pre>
         <p>
           1) Se tiene que armar un lista desordenada de N niveles respetando los
-          niveles y el ordenamientos del JSON.
+          niveles y el ordenamiento del JSON.
         </p>
         <p>
           2) Cada item de la lista debe mostrar su valor y ruta de claves
