@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 /**
  * 
   Luego de una llamada REST se recibe un JSON
@@ -29,19 +29,19 @@ export const data = {
       op14: {
         op15: { value: "101" },
         op16: { value: "101" },
-        op17: { value: "101" }
+        op17: { value: "101" },
       },
-      op13: { value: "101" }
+      op13: { value: "101" },
     },
     op8: { value: "013" },
-    op9: { value: "014" }
-  }
+    op9: { value: "014" },
+  },
 };
 
-const Nav = props => {
+const Nav = ({ data }) => {
   return (
     <div>
-      <p style={{ fontStyle: "italic", color: "gray" }}>Your code goes here</p>
+      <p style={{ fontStyle: "italic", color: "gray" }}>Your code</p>
     </div>
   );
 };

@@ -8,7 +8,7 @@ import Nav from "./react/react-1";
 const App = () => (
   <div>
     <h1>Test</h1>
-    <h3>Css</h3>
+    {/* <h3>Css</h3>
     <ol>
       <li>
         <strong>css/css-1.html:</strong>
@@ -23,29 +23,30 @@ const App = () => (
         <p>2) Agregue una separacion de 2 rem entre cada columna</p>
         <p>3) Cambie el grid a uno de dos columnas</p>
       </li>
-    </ol>
+    </ol> */}
+
     <h3>JS</h3>
     <ol>
       <li>
         <p>
-          Se recibe una cantidad de elementos. Se tiene cajas que pueden
-          contener 3 ó 5 elementos en cada una.
+          A number of items are received. You have boxes that can Contain 3 or 5
+          elements in each one.
         </p>
         <p>
-          Se tiene que determinar si la cantidad de elementos puede ser
-          contenida sin que ninguna caja quede con faltantes o sobrantes.
+          It has to be determined if the number of elements can be contained
+          without any box being missing or left over.
         </p>
         <p>
-          En caso que se pueda distribuir sin faltantes o sobrantes retornar 1
-          en caso contrario retornar -1
+          In the event that it can be distributed without shortages or
+          surpluses, return 1 otherwise return -1
         </p>
         <p>
-          Complete la function "canBeGroup" en <strong>js/js-1.js</strong>
+          Complete function "canBeGroup" in <strong>js/js-1.js</strong>
         </p>
         <Test />
         <p />
       </li>
-      <li>
+      {/* <li>
         <strong>js/js-2.js:</strong>
         <p>Determine que valor imprime `a` y explique el porque</p>
       </li>
@@ -103,7 +104,7 @@ const App = () => (
           expandir colapsar los hijos
         </p>
         <Nav />
-      </li>
+      </li> */}
     </ol>
   </div>
 );
